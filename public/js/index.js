@@ -9,8 +9,8 @@ button.addEventListener('click', fraseAleatoria);
 function fraseAleatoria() {
 
     //criando numero randomico que servirá de index do nosso array de frases
-    let i = Math.round(Math.random() * 2);
+    let i = Math.round(Math.random() * 5);
     //adiciona o texto da frase na div criada
     divFrase.textContent = frases[i];
-    
+
 };
